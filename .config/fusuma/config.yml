@@ -1,0 +1,26 @@
+swipe:
+  3: 
+    left: 
+      command: 'echo key alt+right | DOTOOL_XKB_LAYOUT=fr dotoolc' #browser next 
+    right: 
+      command: 'echo key alt+left | DOTOOL_XKB_LAYOUT=fr dotoolc' #browser back
+  4:
+    left: 
+      command: ''
+    right: 
+      command: ''
+    up: 
+      command: ''
+    down: 
+      command: ''
+pinch:
+  in:
+    command: 'echo key ctrl+0 | DOTOOL_XKB_LAYOUT=fr dotoolc'
+  out:
+     command: 'echo key ctrl+equal | DOTOOL_XKB_LAYOUT=fr dotoolc'
+threshold:
+  swipe: 0.4
+  pinch: 0.4
+interval:
+  swipe: 0.8
+  pinch: 0.1
