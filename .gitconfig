@@ -3,3 +3,5 @@
 	email = 22433109+timothewt@users.noreply.github.com
 [init]
 	defaultBranch = main
+[credential]
+	helper = cache
