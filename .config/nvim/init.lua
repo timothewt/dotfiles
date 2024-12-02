@@ -16,6 +16,7 @@ vim.opt.tabstop = 4
 vim.opt.expandtab = true
 vim.opt.softtabstop = 4
 
+vim.opt.clipboard = “unamedplus”
 local lazy_config = require "configs.lazy"
 
 -- load plugins
