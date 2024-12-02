@@ -3,3 +3,5 @@ alias py="python"
 alias ls="exa"
 alias vim="nvim"
 alias neofetch="neofetch | lolcat"
+
+
