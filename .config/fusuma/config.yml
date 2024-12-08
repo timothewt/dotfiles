@@ -15,9 +15,9 @@ swipe:
       command: ''
 pinch:
   in:
-    command: 'echo key ctrl+0 | DOTOOL_XKB_LAYOUT=fr dotoolc'
+    command: '' #'echo key ctrl+0 | DOTOOL_XKB_LAYOUT=fr dotoolc'
   out:
-     command: 'echo key ctrl+equal | DOTOOL_XKB_LAYOUT=fr dotoolc'
+    command: '' #'echo key ctrl+equal | DOTOOL_XKB_LAYOUT=fr dotoolc'
 threshold:
   swipe: 0.4
   pinch: 0.4
